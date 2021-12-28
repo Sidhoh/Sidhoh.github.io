@@ -1,0 +1,15 @@
+body {
+  font-family: "Inconsolata", monospace;
+  width: 60%;
+	margin: auto;
+}
+h1 {
+  padding-top: 25px;
+  text-align: center;
+}
+hr {
+	background-color: #ffffff;
+}
+.footer {
+  text-align: center;
+}
