@@ -1,0 +1,82 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: Cantarell, sans-serif;
+  margin-top: 40px;
+  margin-left: 10%;
+  color: white;
+}
+
+.links {
+  margin-right: 8px;
+  width: 20px;
+  color: #888888;
+}
+
+a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  margin-top: 6%;
+  margin-left: 6%;
+}
+
+.bio {
+  margin-right: 40%;
+  line-height: 25px;
+}
+
+.heading {
+  margin-top: 30px;
+  color: #888888;
+}
+
+.icons {
+  padding: 0 15px 0 0;
+}
+
+.stats {
+  position: absolute;
+  padding: 4px 0 0 8px;
+  font-weight: bold;
+}
+
+.works {
+  margin-top: 3%;
+  margin-left: 6%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.pabt {
+  margin-left: 40px;
+  color: #888888;
+  width: 60%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.photos {
+  -webkit-filter: grayscale(100%); /* New WebKit */
+  filter: grayscale(100%);
+  padding-top: 50px;
+  margin-left: 6%;
+  cursor: pointer;
+}
+
+.photos:hover {
+  -webkit-filter: grayscale(0%); /* New WebKit */
+  filter: grayscale(0%);
+  padding-top: 50px;
+  margin-left: 6%;
+}
+
+.footer {
+  padding-bottom: 20px;
+  padding-top: 50px;
+  margin-left: 35%;
+}
