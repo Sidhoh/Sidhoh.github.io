@@ -1,34 +1,44 @@
 <template>
   <div>
     <h1 class="home">Gallery</h1>
-    <div class="list">
-      <a href="/_nuxt/assets/1.jpeg" target="_blank">
-        <img class="photos" src="../assets/1.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/2.jpeg" target="_blank">
-        <img class="photos" src="../assets/2.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/3.jpeg" target="_blank">
-        <img class="photos" src="../assets/3.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/4.jpeg" target="_blank">
-        <img class="photos" src="../assets/4.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/5.jpeg" target="_blank">
-        <img class="photos" src="../assets/5.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/7.jpeg" target="_blank">
-        <img class="photos" src="../assets/7.jpeg" width="400px" />
-      </a>
-      <a href="/_nuxt/assets/6.jpeg" target="_blank">
-        <img class="photos" src="../assets/6.jpeg" width="400px" />
-      </a>
+    <div class="images" v-viewer>
+      <img
+        v-for="src in images"
+        :key="src"
+        :src="src"
+        width="250px"
+        class="photos"
+      />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import "viewerjs/dist/viewer.css";
+import VueViewer from "v-viewer";
+import Vue from "vue";
+Vue.use(VueViewer);
+
+export default {
+  data() {
+    return {
+      images: [
+        "https://github.com/Sidhoh/Gallery/blob/main/1.jpeg?raw=true",
+        "https://github.com/Sidhoh/Gallery/blob/main/2.jpeg?raw=true",
+        "https://github.com/Sidhoh/Gallery/blob/main/3.jpeg?raw=true",
+        "https://github.com/Sidhoh/Gallery/blob/main/4.jpeg?raw=true",
+        "https://github.com/Sidhoh/Gallery/blob/main/6.jpeg?raw=true",
+      ],
+    };
+  },
+  methods: {
+    show() {
+      this.$viewerApi({
+        images: this.images,
+      });
+    },
+  },
+};
 </script>
 
 <style></style>

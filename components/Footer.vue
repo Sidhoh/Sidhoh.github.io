@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p>Made by Sidh with ❤️</p>
+    <p>⟨/⟩ with ♥<br/>© Sidh 2022 | All rights reserved.</p>
   </div>
 </template>
 

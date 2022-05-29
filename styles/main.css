@@ -45,9 +45,9 @@ a {
 
 .works {
   margin-top: 3%;
-  margin-left: 6%;
+  margin-left: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .pabt {
@@ -76,7 +76,9 @@ a {
 }
 
 .footer {
+  text-align: center;
   padding-bottom: 20px;
+  color: #888888;
   padding-top: 50px;
-  margin-left: 35%;
+  padding-right: 50px;
 }

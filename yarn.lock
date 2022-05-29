@@ -7319,6 +7319,11 @@ thread-loader@^3.0.4:
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
 
+throttle-debounce@^2.0.1:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.3.0.tgz#fd31865e66502071e411817e241465b3e9c372e2"
+  integrity sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==
+
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -7666,6 +7671,14 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
+v-viewer@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/v-viewer/-/v-viewer-1.6.4.tgz#39e36b534baab34076fb816704c6a734de0dc72f"
+  integrity sha512-LVkiUHpmsbsZXebeNXnu8krRCi5i2n07FeLFxoIVGhw8lVvTBO0ffpbDC6mLEuacCjrIh09HjIqpciwUtWE8lQ==
+  dependencies:
+    throttle-debounce "^2.0.1"
+    viewerjs "^1.5.0"
+
 vary@^1.1.2, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -7675,6 +7688,11 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
+
+viewerjs@^1.5.0:
+  version "1.10.5"
+  resolved "https://registry.yarnpkg.com/viewerjs/-/viewerjs-1.10.5.tgz#a0f52fe7c15fa27003099af8e7552378ed5fc94d"
+  integrity sha512-QwKrmXlSfKg5x4y74F/jicpHIRqBMMfHXyboOxHDi5n4XAaejjpalphPq4/HW6venQAoMiD57HpVwBk0JvqpSA==
 
 vm-browserify@^1.0.1:
   version "1.1.2"
