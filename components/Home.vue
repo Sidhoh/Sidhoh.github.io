@@ -121,7 +121,7 @@
       </svg>
     </div>
     <br /><br /><br />
-    <h2 id="#works">Things I have built</h2>
+    <h1>Things I have built</h1>
     <div class="works">
       <a href="https://github.com/Sidhoh/goo" target="_blank">
         <h2>
