@@ -63,16 +63,19 @@ a {
 .photos {
   -webkit-filter: grayscale(100%); /* New WebKit */
   filter: grayscale(100%);
-  padding-top: 50px;
   margin-left: 6%;
+  margin-top: 6%;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .photos:hover {
   -webkit-filter: grayscale(0%); /* New WebKit */
   filter: grayscale(0%);
-  padding-top: 50px;
   margin-left: 6%;
+  margin-top: 6%;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .footer {
