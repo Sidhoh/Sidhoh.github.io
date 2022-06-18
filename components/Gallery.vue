@@ -29,7 +29,8 @@ export default {
         "https://github.com/Sidhoh/Gallery/blob/main/4.jpeg?raw=true",
         "https://github.com/Sidhoh/Gallery/blob/main/6.jpeg?raw=true",
         "https://github.com/Sidhoh/Gallery/blob/main/8.JPG?raw=true",
-        "https://github.com/Sidhoh/Gallery/blob/main/9.gif?raw=true"
+        "https://github.com/Sidhoh/Gallery/blob/main/9.gif?raw=true",
+        "https://github.com/Sidhoh/Gallery/blob/main/10.jpg?raw=true"
       ],
     };
   },
