@@ -85,3 +85,15 @@ a {
   padding-top: 50px;
   padding-right: 50px;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
