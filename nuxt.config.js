@@ -18,7 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Emoji_u1f64b.svg' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/313/waving-hand_1f44b.png' }
     ]
   },
 
