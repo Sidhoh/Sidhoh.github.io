@@ -8,7 +8,7 @@ body {
 
 .links {
   margin-right: 8px;
-  width: 20px;
+  width: 0px;
   color: #888888;
 }
 
@@ -20,7 +20,11 @@ a {
 
 .home {
   margin-top: 6%;
-  margin-left: 6%;
+  margin-left: 0%;
+}
+
+.images {
+  margin-left: -3%;
 }
 
 .bio {
@@ -35,12 +39,6 @@ a {
 
 .icons {
   padding: 0 15px 0 0;
-}
-
-.stats {
-  position: absolute;
-  padding: 4px 0 0 8px;
-  font-weight: bold;
 }
 
 .works {
@@ -61,19 +59,16 @@ a {
 }
 
 .photos {
-  -webkit-filter: grayscale(100%); /* New WebKit */
-  filter: grayscale(100%);
-  margin-left: 6%;
-  margin-top: 6%;
+  margin-left: 3%;
+  margin-top: 3%;
   cursor: pointer;
   border-radius: 10px;
+  height: 150px;
 }
 
 .photos:hover {
-  -webkit-filter: grayscale(0%); /* New WebKit */
-  filter: grayscale(0%);
-  margin-left: 6%;
-  margin-top: 6%;
+  margin-left: 3%;
+  margin-top: 3%;
   cursor: pointer;
   border-radius: 10px;
 }
