@@ -69,7 +69,7 @@ a {
   object-fit: cover;
   object-position: bottom;
   margin-top: 3%;
-  cursor: grab;
+  cursor: pointer;
   border-radius: 10px;
 }
 
