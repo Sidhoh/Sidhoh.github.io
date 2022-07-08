@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="home">Gallery</h1>
-    <div class="images" v-viewer>
+    <div class="images" v-viewer="{button: false, navbar: false, title: false, toolbar: false, tooltip: false, movable: false, zoomable: false, rotatable: false, scalable: false, transition: false, fullscreen: false, keyboard: true}">
       <img
         v-for="src in images"
         :key="src"
