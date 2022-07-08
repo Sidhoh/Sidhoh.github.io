@@ -25,6 +25,11 @@ a {
 
 .images {
   margin-left: -3%;
+  margin-left: auto;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
 }
 
 .bio {
@@ -59,25 +64,19 @@ a {
 }
 
 .photos {
-  margin-left: 3%;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
   margin-top: 3%;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 150px;
-}
-
-.photos:hover {
-  margin-left: 3%;
-  margin-top: 3%;
-  cursor: pointer;
+  cursor: grab;
   border-radius: 10px;
 }
 
 .footer {
   text-align: center;
-  padding-bottom: 20px;
+  padding-top: 10%;
   color: #888888;
-  padding-top: 50px;
   padding-right: 50px;
 }
 
