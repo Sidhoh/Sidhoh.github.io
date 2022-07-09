@@ -6,7 +6,7 @@
       journey with VueJS, love to build web applications!
     </p>
     <h2 class="heading">Language/Framework</h2>
-    <div>
+    <div class="noselect">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -249,7 +249,7 @@
               opacity=".2"
             ></path>
             <path
-              fill="currentColor"
+              fill="#888888"
               d="M176 112a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h80a8 8 0 0 1 8 8Zm-8 24H88a8 8 0 0 0 0 16h80a8 8 0 0 0 0-16Zm88-32v24a32.1 32.1 0 0 1-32 32h-5.2c-6.6 14.4-19.3 27-37.6 37.2c-21.1 11.7-43.6 17-49.9 18.3l-3.3.3l-3.3-.3c-6.3-1.3-28.8-6.6-49.9-18.3c-18.3-10.2-31-22.8-37.6-37.2H32a32.1 32.1 0 0 1-32-32v-24a32.1 32.1 0 0 1 32-32h1a16 16 0 0 1 9.5-9.4l80-29.1a16 16 0 0 1 11 0l80 29.1A16 16 0 0 1 223 72h1a32.1 32.1 0 0 1 32 32ZM32.6 144a52.9 52.9 0 0 1-.6-8V88a16 16 0 0 0-16 16v24a16 16 0 0 0 16 16Zm175.4-8V77.6l-80-29.1l-80 29.1V136c0 45.8 71.8 62.1 80 63.8c8.2-1.7 80-18 80-63.8Zm32-32a16 16 0 0 0-16-16v48a52.9 52.9 0 0 1-.6 8h.6a16 16 0 0 0 16-16Z"
             ></path></svg
           >&nbsp;&nbsp;&nbsp;Kovid
@@ -300,10 +300,10 @@
               fill="currentColor"
               d="M10 16a2 2 0 1 1 2-2a2 2 0 0 1-2 2Zm0-2Z"
             ></path>
-            <circle cx="22" cy="12" r="1" fill="currentColor"></circle>
-            <circle cx="22" cy="16" r="1" fill="currentColor"></circle>
-            <circle cx="20" cy="14" r="1" fill="currentColor"></circle>
-            <circle cx="24" cy="14" r="1" fill="currentColor"></circle></svg
+            <circle cx="22" cy="12" r="1" fill="#888888"></circle>
+            <circle cx="22" cy="16" r="1" fill="#888888"></circle>
+            <circle cx="20" cy="14" r="1" fill="#888888"></circle>
+            <circle cx="24" cy="14" r="1" fill="#888888"></circle></svg
           >&nbsp;&nbsp;&nbsp;Console Adventure
         </h2>
         <p class="pabt">
