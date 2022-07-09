@@ -48,9 +48,11 @@ a {
 
 .works {
   margin-top: 3%;
+  margin-right: 5%;
   margin-left: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 30px;
 }
 
 .pabt {
@@ -90,4 +92,22 @@ a {
 ::selection {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+br {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
