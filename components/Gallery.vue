@@ -35,7 +35,9 @@ export default {
         "https://raw.githubusercontent.com/Sidhoh/Gallery/main/11.jpeg",
         "https://raw.githubusercontent.com/Sidhoh/Gallery/main/12.jpeg",
         "https://raw.githubusercontent.com/Sidhoh/Gallery/main/13.jpeg",
-        "https://raw.githubusercontent.com/Sidhoh/Gallery/main/14.jpeg"
+        "https://raw.githubusercontent.com/Sidhoh/Gallery/main/14.jpeg",
+        "https://raw.githubusercontent.com/Sidhoh/Gallery/main/15.jpg",
+        "https://raw.githubusercontent.com/Sidhoh/Gallery/main/16.jpg"
       ],
     };
   },
