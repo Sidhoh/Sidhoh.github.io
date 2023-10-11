@@ -18,7 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/313/waving-hand_1f44b.png' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://em-content.zobj.net/source/apple/354/face-savoring-food_1f60b.png' }
     ]
   },
 
