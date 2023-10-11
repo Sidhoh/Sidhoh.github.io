@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <h1>Myself Sidh,</h1>
+    <h1>Sidh,</h1>
     <p class="bio">
-      A 15 yo student and programming enthusiast. I've recently started my
+      A 17 yo student and programming enthusiast. I've recently started my
       journey with VueJS, love to build web applications!
     </p>
     <h2 class="heading">Language/Framework</h2>
